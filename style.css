@@ -1,0 +1,247 @@
+body {
+
+    /* background-image: url('2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+
+nav {
+    background-color: rgb(17, 9, 9);
+    border-bottom:5px double rgb(89, 150, 10);
+}
+
+.logo1 {
+    float: left;
+    color: rgb(242, 244, 143);
+    font-size: 80px;
+    padding: 6px;
+    font-family: 'Brush Script MT', cursive;
+    margin-left: 15px;
+    text-shadow: 5px 5px 15px rgb(164, 32, 32);
+
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.Menu {
+
+    float: center;
+    padding: 25px;
+    /*color: rgb(20, 8, 8);
+    */
+    text-align: right;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: 40px;
+}
+
+.item {
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 0px;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(25, 3, 66);
+    background-color: rgb(243, 235, 235);
+    cursor: pointer;
+    /* border: 1px solid yellow;
+    */
+    border-radius: 15px;
+
+}
+
+.item:hover {
+
+    color: rgb(255, 0, 0);
+    background-color: white;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    margin-right: 100px;
+    image-resolution: 100%;
+}
+
+.p0 {
+    color: antiquewhite;
+    font-size: 25px;
+    font-family: Verdana;
+    padding: 30px;
+    margin-right: 250px;
+
+}
+
+.p1 {
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: italic;
+    color: rgb(6, 8, 128);
+    text-shadow: 5px 5px 15px rgb(103, 85, 171);
+    text-align: center;
+
+}
+
+.p2 {
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    color: rgb(61, 118, 53);
+    text-shadow: 5px 5px 15px rgb(206, 90, 84);
+    margin-left: 150px;
+    text-align: center;
+}
+
+.btn1 {
+
+    width: 200px;
+    height: 70px;
+    color: rgb(247, 244, 244);
+    font-size: 30px;
+    border-radius: 15px;
+    background-color: rgb(147, 144, 175);
+    cursor: pointer;
+    border: rgb(215, 13, 13);
+}
+
+.btn1:hover {
+
+    color: rgb(13, 4, 92);
+    background-color: rgb(40, 38, 38);
+}
+
+.section {
+
+    border-bottom: 10px double rgb(68, 172, 70);
+}
+
+.txt {
+
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.link-column {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+
+}
+
+.footer-container {
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+footer {
+    padding-block: 50px;
+    background-color: lightcyan;
+}
+
+.subfooter {
+    background-color: #b9cde4;
+    padding: var(--padding-inline-section);
+}
+
+.subfooter-container {
+    justify-content: center;
+    gap: 10px;
+}
+
+.flex a {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 30px;
+    color: black;
+    position: relative;
+
+}
+
+.flex a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom: 2px solid rgb(17, 3, 97);
+    transition: o.4s linear;
+}
+
+.flex a:hover:before {
+    width: 90%;
+}
+
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.imgs {
+
+    display: flex;
+
+}
+
+.img-view {
+
+    margin-left: 10px;
+    margin-bottom: 40px;
+    width: 300px;
+    height: 300px;
+    border: 20px solid rgb(23, 3, 77);
+}
+
+.wid {
+
+    width: 300px;
+    height: 220px;
+    size: cover;
+}
+
+.img-cap {
+
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 5px 5px 15px rgb(28, 2, 68);
+}
+
+.img-view:hover {
+
+    border: 15px solid rgb(132, 147, 116);
+}
+
+.break {
+    border-bottom: 10px double rgb(68, 172, 70);
+}
+
+.hover-link {
+    color: var(--primary-text-colour);
+    transition: 0.2 ease-out;
+
+}
+
+.hover-link:hover {
+    color: var(--accent-color);
+}
